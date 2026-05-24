@@ -1,8 +1,9 @@
 import Hero from "@/components/sections/Hero";
-import TrustBar from "@/components/sections/TrustBar"; // القسم الجديد
+import TrustBar from "@/components/sections/TrustBar";
 import Services from "@/components/sections/Services";
 import BeforeAfter from "@/components/sections/BeforeAfter";
-import ContactSection from "@/components/sections/ContactSection";
+// استدعاء الفورم من مكانه الجديد
+import EmergencyForm from "@/components/sections/EmergencyForm"; 
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
       <TrustBar />
       <Services />
       <BeforeAfter />
-      <ContactSection />
+
+      {/* الفورم الجديد شغال هنا */}
+      <EmergencyForm />
     </main>
   );
 }
