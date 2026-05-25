@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-100 pt-20 pb-10">
+    <footer className="bg-white border-t border-gray-100 pt-14 md:pt-20 pb-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 text-brand-navy">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 mb-12 md:mb-16 text-brand-navy">
           <div className="space-y-6">
             <h2 className="text-2xl font-black tracking-tighter">IDROSHAZLI</h2>
             <p className="text-gray-500 text-sm leading-relaxed">
@@ -54,9 +54,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-100 pt-8 text-center text-[10px] text-gray-400 font-medium">
+        <div className="border-t border-gray-100 pt-8 text-center text-[10px] text-gray-400 font-medium px-2">
           <p>© {new Date().getFullYear()} IDROSHAZLI DI ALSAYED AHMED</p>
-          <p className="mt-1 uppercase tracking-widest">P.IVA: IT 14400030962 | C.F.: LSYHDB96P29Z3361</p>
+          <p className="mt-1 uppercase tracking-wide sm:tracking-widest break-words">P.IVA: IT 14400030962 | C.F.: LSYHDB96P29Z3361</p>
         </div>
       </div>
     </footer>

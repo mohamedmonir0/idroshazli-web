@@ -1,5 +1,5 @@
 "use client";
-import { Clock, ShieldCheck, Euro } from "lucide-react";
+import { Clock, ShieldCheck } from "lucide-react";
 
 export default function TrustBar() {
   const features = [
@@ -9,11 +9,11 @@ export default function TrustBar() {
 ];
 
   return (
-    <div className="relative z-20 -mt-12 max-w-5xl mx-auto px-4">
-      <div className="bg-white rounded-3xl shadow-2xl border border-gray-100 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-100 py-6">
+    <div className="relative z-20 -mt-10 md:-mt-12 max-w-5xl mx-auto px-4">
+      <div className="bg-white rounded-2xl md:rounded-3xl shadow-2xl border border-gray-100 grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-100 py-2 md:py-6">
         {features.map((f, i) => (
-          <div key={i} className="flex items-center justify-center gap-4 px-8 py-4">
-            <div className="p-3 bg-brand-sky/10 rounded-2xl">
+          <div key={i} className="flex items-center justify-start md:justify-center gap-4 px-5 sm:px-8 py-4">
+            <div className="p-3 bg-brand-sky/10 rounded-2xl shrink-0">
               {f.icon}
             </div>
             <div>
