@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://idroshazli.it/</loc>
-  </url>
-  <url>
-    <loc>https://idroshazli.it/services/climatizzazione</loc>
-  </url>
-  <!-- ضيف هنا باقي روابط الخدمات اللي عملناها -->
+  <url><loc>https://www.idroshazli.it/</loc></url>
+  <url><loc>https://www.idroshazli.it/chi-siamo</loc></url>
+  <url><loc>https://www.idroshazli.it/contatti</loc></url>
+  <url><loc>https://www.idroshazli.it/lavora-con-noi</loc></url>
+  <url><loc>https://www.idroshazli.it/services/climatizzazione</loc></url>
+  <url><loc>https://www.idroshazli.it/services/emergenza</loc></url>
+  <url><loc>https://www.idroshazli.it/services/gas-riscaldamento</loc></url>
+  <url><loc>https://www.idroshazli.it/services/pittura-elettricista</loc></url>
+  <url><loc>https://www.idroshazli.it/services/ristrutturazioni</loc></url>
 </urlset>
