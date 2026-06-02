@@ -3,8 +3,8 @@ import { NextResponse } from 'next/server';
 export async function POST(req: Request) {
   try {
     const { name, phone, message, fileUrl, type } = await req.json();
-    const apiKey = "3133222"; 
-    const whatsappNumber = "393513446159"; 
+    const apiKey = "3965679"; 
+    const whatsappNumber = "393896616549"; 
     
     // تصميم الرسالة بناءً على النوع
     const text = `🚨 ${type === 'emergency' ? 'طلب طوارئ جديد' : 'طلب توظيف جديد'}\n\n👤 الاسم: ${name}\n📞 الهاتف: ${phone}\n📝 التفاصيل: ${message}\n📄 الملف: ${fileUrl}`;
