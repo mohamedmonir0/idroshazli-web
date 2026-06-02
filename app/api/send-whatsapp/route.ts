@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function POST(req: Request) {
   try {
     const { name, phone, message, fileUrl, type } = await req.json();
-    const apiKey = "3965679"; 
+    const apiKey = "3965697"; 
     const whatsappNumber = "393896616549"; 
     
     // تصميم الرسالة بناءً على النوع
